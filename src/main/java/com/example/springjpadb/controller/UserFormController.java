@@ -20,10 +20,7 @@ public class UserFormController {
         this.userFormDataRepo = userFormDataRepo;
     }
 
-    @GetMapping("/page1")
-    public String pageGet(){
-        return "userinputdatatest";
-    }
+
 
 
     @PostMapping("/addUserToDB")
